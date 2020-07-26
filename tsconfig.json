@@ -1,0 +1,18 @@
+{
+  "include": ["./resources/ts/**/*"],
+  "compilerOptions": {
+    "types": ["node"],
+    "module": "ES2015",
+    "lib": ["dom", "ES2017"],
+    "declaration": false,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "target": "es2017",
+    "sourceMap": false,
+    "incremental": true,
+    "esModuleInterop": true,
+    "moduleResolution": "node"
+  },
+  "exclude": ["node_modules", "./public"]
+}
