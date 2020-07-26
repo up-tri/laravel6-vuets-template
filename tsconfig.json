@@ -1,7 +1,7 @@
 {
   "include": ["./resources/ts/**/*"],
   "compilerOptions": {
-    "types": ["node"],
+    "types": ["node", "jest"],
     "module": "ES2015",
     "lib": ["dom", "ES2017"],
     "declaration": false,
